@@ -1,3 +1,3 @@
 # odin-recipes
 
-My first ever project on Git! Thank you Odin! 
+My first ever project on GitHub! Thank you Odin! 
