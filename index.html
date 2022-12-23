@@ -5,14 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="./images/ratat.jpg" alt="ratatouille" style="width: 350px; height: 350px">
-    <ul>
-    <li><a href="recipes/gnocchi.html">Gnocchi</a></li>
-    <li><a href="recipes/pizza.html">Pizza</a></li>
-    <li><a href="recipes/cookies.html">Cookies</a></li>
-    </ul>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+            <a href="index.html">Odin Recipes</a>
+            </div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <header class="header">
+            <div class="container">
+                <div>
+                    <h1>Simple and <strong>tasty!</strong></h1>
+                    <p>Morbi non lacus sit amet sem efficitur lobortis eu ac tellus. Duis commodo mauris in fringilla ultricies. <br>Phasellus nisl nisl, posuere nec magna vitae, sodales ultrices velit.</p>
+                    <button class="btn-header">Discover</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="trending">
+            <div class="container">
+                <h2>Trending</h2>
+
+                <div class="boxes">
+
+                    <div class="box">
+                        <img src="./images/gnocchi.jpg">
+                            <div class="description">
+                                <h3>Gnocchi</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet et magna quis maximus. Donec venenatis cursus sapien, et molestie elit elementum sed. Duis ultricies ligula ut vehicula lacinia.</p>
+                                <a href="recipes/gnocchi.html">Read more</a>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <img src="./images/pizza.jpg">
+                        <div class="description">
+                                <h3>Pizza</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet et magna quis maximus. Donec venenatis cursus sapien, et molestie elit elementum sed. Duis ultricies ligula ut vehicula lacinia.</p>
+                                <a href="recipes/pizza.html">Read more</a>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <img src="./images/cookies.jpg">
+                        <div class="description">
+                                <h3>Cookies</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet et magna quis maximus. Donec venenatis cursus sapien, et molestie elit elementum sed. Duis ultricies ligula ut vehicula lacinia.</p>
+                                <a href="recipes/cookies.html">Read more</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+    </main>
+
 </body>
 </html>

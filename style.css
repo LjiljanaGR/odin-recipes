@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    color: #000120; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+   margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+   margin: auto;
+   max-width: 1800px;
+   background-color: white;
+}
+
+/*--THIS IS NAVBAR--*/
+
+.navbar .container {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 35px;
+    color: #000120;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo a:hover {
+    color: rgb(236, 56, 71);
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000120;
+}
+
+nav li a:hover {
+    color: rgb(236, 56, 71);
+    font-weight: 500;
+}
+
+/*--NAVBAR ENDS--*/
+
+/*--THIS IS HEADER--*/
+
+header {
+    height: 750px;
+    width: 100%;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    text-align: center;
+    background-image: url(./images/header.jpg);
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h1 {
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-top: 150px;
+}
+
+.btn-header {
+    padding: 15px 25px 15px 25px;
+    color: rgb(236, 56, 71);
+    background-color: #000120;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 700;
+    margin-top: 25px; 
+}
+
+.btn-header:hover {
+    background-color: rgb(236, 56, 71);
+    color: #000120;
+}
+
+
+/*--HEADER ENDS--*/
+
+
+/*--TRENDING SECTION STARTS--*/
+
+
+.trending .container {
+  height: 100vh;
+  padding: 100px;
+  text-align: center; 
+}
+
+.container h2 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    padding-top: 100px;
+    gap: 25px;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 55%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.box {
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: inherit;
+    background-color: rgb(250, 252, 252);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.box .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    text-align: left;
+}
+
+.description h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(236, 56, 71);
+}
+
+.description a:hover {
+    margin-top: 15px;
+    text-decoration: none;
+    color: #000120;
+}
+
+/*--TRENDING SECTION END--*/
+
+
+
+
